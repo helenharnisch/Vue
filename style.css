@@ -1,3 +1,7 @@
+* {
+	font-family: relaway , sans-serif;
+	font-size: 18px;
+}
 
 
 
@@ -26,5 +30,20 @@
 	border-radius: 10px;
 	color: #555;
 	margin-top: 15px;
-	font-size: 12px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#visible {
+    width: 10%;
+	height: 10%;
+	margin-top: 0 auto;
+	background-color: #28d34a;
+	padding: 20px;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	font-family: relaway , sans-serif;
+	margin-bottom: 5px;
 }

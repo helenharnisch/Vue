@@ -33,6 +33,12 @@
     <p> {{$data}} </p>
    </div>
 
+   <!-- v-show muestra u oculta elementos-->
+   <div id="app-8">
+  <div v-show="ok"id="visible">Ahora soy visible</div>
+  <div @click="ok=!ok"id="visible">Pulsa para alternar</div><p> {{$data}} </p></div>
+
+
 <script type="text/javascript" src= "app.js"></script>
 </body>
 </html>
