@@ -1,4 +1,30 @@
-* {
-	margin-left: 100px;
-    padding-left: 100px;
+
+
+
+#app-7, #data {
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 24px;
+	margin-top: 15px;
+	border: 1px solid #eee;
+}
+
+#data {
+	background-color: #f3f3f3;
+}
+
+.animando button {
+	width: 10%;
+	height: 10%;
+	margin-top: 0 auto;
+	background-color: #f5f5f5;
+	padding: 20px;
+	border-radius: 10px;
+	color: #555;
+	margin-top: 15px;
+	font-size: 12px;
 }

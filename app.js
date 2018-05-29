@@ -25,3 +25,30 @@ var app6 = new Vue({
     message: 'Hello Vue!'
   }
 })
+
+var app6 = new Vue({
+  el: '#app-7',
+  data: {
+    message: 'Esto es un string',
+    numero: 2,
+    booleano: true,
+    unArray: [],
+    unObjeto: {nombre: 'Pedrito' , apellidos: 'Lopez Perez'}
+  }
+})
+
+var app6 = new Vue({
+  el: '#selector',
+  data: {
+    numero: 0,
+  },
+  methods:{
+    sumar: function (){
+      this.numero = this.numero += 1;
+      $('button').css({'background-color':'#28d34a', 'color':'#eee'});
+    }
+  
+  }
+})
+
+
